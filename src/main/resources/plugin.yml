@@ -1,0 +1,30 @@
+name: SoAPI
+main: so.max1soft.Main
+author: SoMax1soft
+description: "t.me/max1soft"
+version: 2.5
+api-version: 1.16
+softdepend: [PlaceholderAPI]
+commands:
+  ytb:
+    description: ytb
+    usage: ytb soobcj
+  soapi:
+    description: soapi
+    usage: soapi stats"
+  soinvsblock:
+    description: soinvs
+    usage: soinvsblock give
+  sotrapreplace:
+    description: sotrap
+    usage: sotrapreplace
+  soperks:
+    description: soPERKS
+    usage: soperks
+  lottery:
+    description: lottery
+    usage: lotery
+permissions:
+  soapi.command.stats:
+    description: Permission to use /check command
+    default: op

@@ -1,0 +1,336 @@
+license-key: TEFU-PZMO-IQIL-BIBG
+Utils:
+  White-List: false
+  weather:
+    world: spawn
+  fix:
+    restricted-worlds:
+      - "spawn"
+      - "arena"
+    length: 10
+  gamemode:
+    enable: true
+  teleportonjoin:
+    enabled: false
+    location:
+      world: spawn
+      x: -25.5
+      y: 194.375
+      z: -136.519
+      yaw: -90.0
+    border:
+      teleportCoordinates:
+        world: spawn
+        x: -47.514
+        y: 123.375
+        z: 19.519
+  crystal:
+    reduce: 30
+  whitelist-enabled: true
+Utils-Message:
+  revivetitle: "§x§2§2§F§F§0§0С§x§2§9§F§3§0§1н§x§2§F§E§6§0§2о§x§3§6§D§A§0§4в§x§3§C§C§E§0§5а §x§4§9§B§5§0§7с §x§3§C§C§E§0§5н§x§3§6§D§A§0§4а§x§2§F§E§6§0§2м§x§2§9§F§3§0§1и§x§2§2§F§F§0§0!"
+  revivesubtitle: ""
+  jointitle: "§x§F§F§9§B§0§0§l☀ §x§F§F§9§B§0§0§lᴛ§x§F§F§A§B§0§0§lᴏ§x§F§F§B§A§0§0§lᴏ§x§F§F§C§A§0§0§lʟ§x§F§F§D§9§0§0§lᴄ§x§F§F§C§4§0§0§lᴜ§x§F§F§B§0§0§0§lʙ§x§F§F§9§B§0§0§lᴇ §x§F§F§9§B§0§0§l☀"
+  joinsubtitle: "§x§F§F§F§F§F§FД§x§F§8§F§8§F§8о§x§F§2§F§2§F§2б§x§E§B§E§B§E§Bр§x§E§4§E§4§E§4о §x§D§7§D§7§D§7п§x§D§0§D§0§D§0о§x§C§A§C§A§C§Aж§x§C§3§C§3§C§3а§x§B§C§B§C§B§Cл§x§B§5§B§5§B§5о§x§A§F§A§F§A§Fв§x§A§8§A§8§A§8а§x§A§1§A§1§A§1т§x§9§B§9§B§9§Bь§x§9§4§9§4§9§4!"
+  kick-whitelist: '&7(&6&T&f&lC&7) &6Сервер полный!'
+  prefix: '&6&lАПИ: '
+  yt-prefix: '&7[&6&lОПОВЕЩЕНИЯ&7] &f'
+  limit-set: 'Новый лимит игроков: &6'
+  error-region-length: '&6Слишком длинное имя региона.'
+  gamemode-message: '&c&lПопытка дюпа, гм выключен.'
+  border:
+    title:
+      first: '&c&lСработала защита!'
+      second: '&6Вы успешно телепортированы на &aспавн'
+settings:
+  whitelist-enabled: true
+# CHESTEVENT  ---------------------------------------------
+chesteventmessages:
+  chesteventpluginPrefix: "§7[§6§lСУНДУК-ГРАФА§7]"
+  chestUpdateNotification: "§fЛут графа §6обновится§f через §a5 минут!§7 (/warp pvp)"
+  chestOpenNotification: "§fСундук графа §6открыт!§7 (/warp pvp)"
+chesteventhologramname: "§e§lС§6§lУНДУК §e§lГ§6§lРАФА"
+chesteventhologramsub: "§fЛут §6обновиться§а через " #минут
+chesteventchestLocation:
+  world: "spawn"
+  x: -38.500
+  y: 61
+  z: -101.500
+chesteventchestUpdateInterval: 30 # Интервал обновления сундука в минутах
+# Настройки предметов
+items:
+  item_1:
+    material: DIAMOND_SWORD
+    name: "§6§lМеч Графа"
+    lore:
+      - "§7Меч легендарного графа"
+    enchants:
+      DAMAGE_ALL: 5
+      DURABILITY: 3
+    chance: 10
+    amount: 1 # Количество предметов
+  item_2:
+    material: EXP_BOTTLE
+    chance: 10
+    amount: 54
+  item_3:
+    material: DIAMOND
+    chance: 10
+    amount: 64
+  item_4:
+    material: DIAMOND_HELMET
+    name: "§6§lШлем графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      DURABILITY: 3
+      WATER_WORKER: 1
+    chance: 10
+    amount: 1
+  item_5:
+    material: DIAMOND_CHESPLATE
+    name: "§6§lНагрудник графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      DURABILITY: 3
+    chance: 10
+    amount: 1
+  item_6:
+    material: DIAMOND_LEGGINGS
+    name: "§6§lПоножи графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      DURABILITY: 3
+    chance: 10
+    amount: 1
+  item_7:
+    material: DIAMOND_BOOTS
+    name: "§6§lБотинки графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      DURABILITY: 3
+    chance: 10
+    amount: 1
+  item_8:
+    material: TOTEM
+    name: "§6§lТотем графа"
+    chance: 10
+    amount: 1
+  item_9:
+    material: POTION
+    potion_type: STRENGTH
+    potion_level: 3
+    chance: 10
+    amount: 1
+  item_10:
+    material: POTION
+    potion_type: SPEED
+    potion_level: 3
+    chance: 10
+    amount: 1
+  item_11:
+    material: ARROW
+    tipped: true
+    potion_type: SLOW_FALLING
+    chance: 10
+    amount: 16
+  item_12:
+    material: EXP_BOTTLE
+    chance: 10
+    amount: 12
+  item_13:
+    material: WEB
+    chance: 10
+    amount: 10
+  item_14:
+    material: DIAMOND_AXE
+    name: "§6§lСекира графа"
+    enchants:
+      DAMAGE_ALL: 6
+      DURABILITY: 3
+    chance: 30
+    amount: 1 # Количество предметов
+  item_15:
+    material: TOTEM
+    name: "§e§lЗолотой тотем"
+    lore:
+      - "§7Очень дорого стоит на аукционе"
+    chance: 1
+    amount: 1
+  item_16:
+    material: POTION
+    potion_type: STRENGTH
+    potion_level: 3
+    chance: 10
+    amount: 1
+  item_17:
+    material: POTION
+    potion_type: SPEED
+    potion_level: 3
+    chance: 10
+    amount: 1
+  item_18:
+    material: BOW
+    name: "§6§lЛук Графа"
+    enchants:
+      ARROW_INFINITE: 1
+      ARROW_FIRE: 1
+      ARROW_KNOCKBACK: 3
+      MENDING: 1
+      ARROW_DAMAGE: 10
+      DURABILITY: 3
+    chance: 20
+    amount: 1 # Количество предметов
+  item_19:
+    material: DIAMOND_HELMET
+    name: "§e§lШлем графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 4
+      DURABILITY: 3
+      WATER_WORKER: 1
+    chance: 10
+    amount: 1
+  item_20:
+    material: DIAMOND_CHESPLATE
+    name: "§e§lНагрудник графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 4
+      DURABILITY: 3
+    chance: 10
+    amount: 1
+  item_21:
+    material: DIAMOND_LEGGINGS
+    name: "§e§lПоножи графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 4
+      DURABILITY: 3
+    chance: 10
+    amount: 1
+  item_22:
+    material: DIAMOND_BOOTS
+    name: "§6§lБотинки графа"
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 4
+      DURABILITY: 3
+    chance: 10
+    amount: 1
+  item_23:
+    material: PAPER
+    chance: 10
+    amount: 12
+  item_24:
+    material: PAPER
+    chance: 10
+    amount: 12
+  item_25:
+    material: OBSIDIAN
+    chance: 10
+    amount: 16
+  item_26:
+    material: SUGAR_CANE
+    chance: 10
+    amount: 32
+  item_27:
+    material: GOLD_INGOT
+    chance: 10
+    amount: 32
+  item_28:
+    material: POTION
+    potion_type: INVISIBILITY
+    potion_level: 1
+    chance: 100
+    amount: 1
+# CIGAN EVENT ---------------------------------------------
+CiganVillager:
+  Name: §a§lЦыган
+  Distance: 10
+  RewardCommand: p give %player% 3
+  coinname: §aМонетка цыгана
+  spawn-interval: 5000
+  regioname: Sperma_Cigana_1488_52
+  event-duration: 900
+CiganBypass:
+  Permission: ciganevent.bypass
+CiganMessages:
+  Stopevent:
+    - §x§F§F§9§B§0§0Ц§x§F§F§A§B§0§0ы§x§F§F§B§A§0§0г§x§F§F§A§B§0§0а§x§F§F§9§B§0§0н §fсбежал,
+      ждем его опять!
+  Startmessage:
+    - §r
+    - §x§F§F§9§B§0§0§l╫                 §f§k|§6 §x§F§F§9§B§0§0Ц§x§F§F§A§B§0§0ы§x§F§F§B§A§0§0г§x§F§F§A§B§0§0а§x§F§F§9§B§0§0н
+      §f§k|§6
+    - §x§F§F§9§B§0§0§l╬
+    - '§x§F§F§9§B§0§0§l╬  §6˃ §fПоявился на §6§x§F§F§8§6§0§0к§x§F§F§9§7§0§0о§x§F§F§A§7§0§0о§x§F§F§B§8§0§0р§x§F§F§C§8§0§0д§x§F§F§D§9§0§0и§x§F§F§C§8§0§0н§x§F§F§B§8§0§0а§x§F§F§A§7§0§0т§x§F§F§9§7§0§0а§x§F§F§8§6§0§0х§f:
+    §eX: %x, Y: %y, Z: %z'
+    - §x§F§F§9§B§0§0§l╫  §6˃ §f§x§F§F§8§6§0§0О§x§F§F§A§2§0§0т§x§F§F§B§D§0§0н§x§F§F§D§9§0§0и§x§F§F§B§0§0§0м§x§F§F§8§6§0§0и§f
+      у него §6§x§F§F§8§6§0§0м§x§F§F§A§2§0§0о§x§F§F§B§D§0§0н§x§F§F§D§9§0§0е§x§F§F§B§D§0§0т§x§F§F§A§2§0§0к§x§F§F§8§6§0§0у§f
+      и получи §6§x§F§F§8§6§0§0н§x§F§F§A§2§0§0а§x§F§F§B§D§0§0г§x§F§F§D§9§0§0р§x§F§F§B§D§0§0а§x§F§F§A§2§0§0д§x§F§F§8§6§0§0у!
+    - §r
+  AlreadyHasCoin: '&cУ вас уже есть монетка цыгана!'
+  CoinTaken: '&6&l%player% &6&nУкрал&f монету у &aцыгана&f, &6отберите &fее и &6получите
+    награду&f вместо него!'
+  TooFar: '&6&l%player% &f&lОтошел &a&nслишком&f далеко, &cцыган вернул монетку!'
+  State: '&e&l%player% &f%state%, &cцыган вернул свою монетку!'
+invsItem:
+  lore: '&fПоставь блок, если &6игрок&f наступит то блок &6пропадёт!'
+  name: '&e▣ &6&lКИНЕТИЧЕСКИЙ БЛОК &e▣'
+  message: '&fВы наступили на &6кинетический блок!'
+  messageplace: '&fВы &aуспешно&f поставили &6кинетический блок!'
+  errortype: 'Неправильный тип блока, доступны: GRASS_BLOCK,STONE,DIRT'
+#SOTRAPREPLACE ---------------------------------------------
+strpItem:
+  name: "&e≋ &6&l&nАртефакт Замены&e ≋"
+  lore:
+    - ""
+    - "&fПри нажатии &6ПКМ&f меняет,"
+    - "&fместами &6вас и ближайшего"
+    - "&fигрока в радиусе &610 блоков."
+    - ""
+    - "&fЗадержка: &6250 сек."
+    - ""
+  blockedworld: "spawn"
+strpUtils-Message:
+  nofoundplayer: "&cИгрок не найден!"
+  invalidamount: "&cНеверное число!"
+  blockedworld: "&cЗапрещено использывать в этом мире!"
+  cooldown: "&cИзвините&f, но у вас есть еще &6%cooldown%&f секунд до следующего &6использования."
+  noplayerradius: "&fИгроков в радиусе &610 блоков&f нету!"
+  playerswap: "§fУспешно поменялись местами с §6%player%"
+  closeswap: "§fВы поменялись местами с §6%player%§f он использывал §6§lЗАМЕНУ"
+  success: "&aВы успешно выдали %amount% предмет(ов) игроку %player%!"
+#SOLOTTERY ---------------------------------
+slwmessages:
+  startAnnouncement:
+    - §e╔§6══§e╦§6════§e╦§6════§e╦§6════§e╦§6════§e╦§6═════§e╗
+    - §6║                        §f§k|§6 §6§lЛОТЕРЕЯ §f§k|§6
+    - §6║
+    - §6║  §6˃ §fНачалась §6ЛОТЕРЕЯ§f успейте по участвовать!
+    - §6║  §6˃ §fНапишите комманду §6/lottery §7join
+    - §e╚§6══§e╩§6════§e╩§6════§e╩§6════§e╩§6════§e╩§6═════§e╝
+  startAlreadyRunning: §7[§6§lЛОТЕРЕЯ§7] §cЛОТЕРЕЯ уже запущена!
+  endNoParticipants:
+    - §e╔§6══§e╦§6════§e╦§6════§e╦§6════§e╦§6════§e╦§6═════§e╗
+    - §6║                        §f§k|§6 §6§lЛОТЕРЕЯ §f§k|§6
+    - §6║
+    - §6║  §6˃ §fНикто не §6поучаствовал...
+    - §6║  §6˃ §fГрустенько.
+    - §e╚§6══§e╩§6════§e╩§6════§e╩§6════§e╩§6════§e╩§6═════§e╝
+  endWinner:
+    - §e╔§6══§e╦§6════§e╦§6════§e╦§6════§e╦§6════§e╦§6═════§e╗
+    - §6║                        §f§k|§6 §6§lЛОТЕРЕЯ §f§k|§6
+    - §6║
+    - §6║  §6˃ §fВ лотореи победил §6%s§f и получил §a350 кубиков
+    - §6║  §6˃ §fПоздравим его с §6победой!
+    - §e╚§6══§e╩§6════§e╩§6════§e╩§6════§e╩§6════§e╩§6═════§e╝
+  joinErrorNotPlayer: §7[§6§lЛОТЕРЕЯ§7] §fТолько §6игроки§f могут присоединяться к
+    лоторее!
+  joinErrorNotRunning: §7[§6§lЛОТЕРЕЯ§7] §6TOOL-LOTTERY §fне запущена!
+  joinErrorAlreadyJoined: §7[§6§lЛОТЕРЕЯ§7] §cВы уже участвуете в лоторее!
+  joinSuccess: §7[§6§lЛОТЕРЕЯ§7] §fВы успешно §6приняли§f участие в §6лоторее!
+  joinErrorNotEnoughPlayers: §7[§6§lЛОТЕРЕЯ§7] §fНедостаточно игроков для §6начала
+    лотореи§f. Минимум §62 игрока§f необходимы.
+  startErrorNotEnoughPlayers: §7[§6§lЛОТЕРЕЯ§7] §fНедостаточно игроков для §6запуска
+    лотореи§f. Необходимо минимум §6два игрока.
+slwbossBarTitle: §fДо конца §fлотореи§7:§6 %d §fсекунд§f §8| §6[/lottery join]
+slwreward:
+  - p give %player 150
+slweventIntervalMinutes: 30
